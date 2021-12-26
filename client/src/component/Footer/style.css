@@ -1,0 +1,17 @@
+footer {
+  background-color: #2c3444;
+}
+
+/* .footer__btn {
+  transition: back 200ms ease-in-out;
+}
+
+.footer__btn:hover {
+} */
+
+.social__media {
+  color: white;
+  padding: 2px;
+  background-color: white;
+  border-radius: 20%;
+}

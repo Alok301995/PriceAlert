@@ -1,0 +1,55 @@
+.home {
+  height: 500px;
+}
+.wrapper {
+  max-width: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.items {
+  min-width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.animateInDiv {
+  animation: bringin 200ms ease-in;
+}
+.animateOutDiv {
+  animation: bringout 2000ms ease-out;
+}
+
+@keyframes bringin {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bringout {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.bg {
+  z-index: -1;
+}
+.info {
+  background-color: #e8e9eb85;
+}
+
+

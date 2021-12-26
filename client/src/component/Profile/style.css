@@ -1,0 +1,20 @@
+.profile {
+  background-color: #2c3444;
+  /* background-color: #2c344425; */
+}
+.profile__header {
+  /* background-color: #525487; */
+  background-color: #e8e9eb;
+}
+.ongoing__wrapper {
+  /* background-color: #e8e9eb; */
+  background-color: #e8e9eb;
+}
+
+.tracked__wrapper {
+  background-color: #e8e9eb;
+}
+
+.notification__wrapper {
+  background-color: #e8e9eb;
+}
