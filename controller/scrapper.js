@@ -1,6 +1,22 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const { text } = require("express");
+const amazonScraper = require("amazon-buddy");
+
+(async () => {
+  try {
+      // Collect 50 products from a keyword 'xbox one'
+      // Default country is US
+      const prod = await amazonScraper.products({ keyword: 'condom', number: 1 ,country:'IN'});
+      console.log(prod.result[0]['title'] , prod.result[0]['price']);
+      console.log(prod.result[1]['title'] , prod.result[1]['price']);
+      console.log(prod.result[2]['title'], prod.result[2]['price']);
+
+  } catch (error) {
+      console.log(error);
+  }
+})();
+
 
 const scrapper = async (url) => {
   // site(url);
