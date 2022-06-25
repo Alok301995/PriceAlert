@@ -11,6 +11,7 @@
   "author": "Alok Dhiman",
   "license": "ISC",
   "dependencies": {
+    "@webdeb/amazon-buddy": "^2.4.1",
     "amazon-buddy": "^2.2.41",
     "axios": "^0.21.1",
     "bcrypt": "^5.0.0",

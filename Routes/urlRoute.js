@@ -2,6 +2,7 @@ const route = require("express").Router();
 const scraper = require("../controller/scrapper");
 const User = require("../Model/User");
 const jwt = require("jsonwebtoken");
+const result = require('../controller/newScrapper')
 
 // URL verification Middleware
 
@@ -31,10 +32,11 @@ const verifyUrl = (req, res, next) => {
 // scrapper
 
 // End Point object {url:url}
-route.post("/", verifyUrl, async (req, res, next) => {
+route.post("/", async (req, res, next) => {
   const { url } = req.body;
   try {
-    const response = await scraper(url);
+    const response = await result(url);
+    console.log(response);
     return res.status(200).send(response);
   } catch (error) {
     next(error);
