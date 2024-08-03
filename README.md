@@ -1,6 +1,6 @@
 # PriceAlert
 
-![Description of the image](https://github.com/Alok301995/PriceAlert/blob/master/Home%20page.png)
+![Description of the image](https://github.com/Alok301995/PriceAlert/blob/master/homepage.png)
 
 ### Introduction
 
