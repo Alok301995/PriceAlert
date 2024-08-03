@@ -1,6 +1,6 @@
 # PriceAlert
 
-
+![Description of the image](Home page.png)
 
 ### Introduction
 
