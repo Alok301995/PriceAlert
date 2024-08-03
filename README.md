@@ -21,3 +21,9 @@ PriceAlert is a web-based application designed to help users track product price
 - Commit your changes (git commit -m 'Add some feature')
 - Push to the branch (git push origin feature/your-feature)
 - Open a pull request
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+# Contact
+For questions or feedback, please reach out to us at alokdhiman018@gmail.com.
