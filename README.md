@@ -1,9 +1,10 @@
 # PriceAlert
 
+
+
 ### Introduction
 
 PriceAlert is a web-based application designed to help users track product prices across various e-commerce websites. Users can set custom price targets for specific products and receive notifications when the prices drop to their desired levels.
-
 
 
 # Features
